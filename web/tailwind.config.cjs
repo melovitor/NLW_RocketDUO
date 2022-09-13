@@ -5,6 +5,9 @@ module.exports = {
     './index.html'
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Inter', 'sans-serif']
+    },
     extend: {
       backgroundImage: {
         'nlw-gradient' : 'linear-gradient(89.86deg, #9572FC 15%, #43E7AD 66%, #E1D55D 95%)',
